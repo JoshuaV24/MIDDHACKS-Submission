@@ -11,4 +11,8 @@ Readefined is a website that helps children with ADHD read faster immediately. O
   
  2).Front end:
   -Each of the pages are of course written in html and css.
-  -These html and css 
+  -We included javascript files that atttempt to link the front and back end. 
+  -The javascript adds functionality to our website.
+  
+ 3)Prototype files:
+   -Our algorithms were originally written in plain python. We did not have the time to fully implement them into javascript/django.
