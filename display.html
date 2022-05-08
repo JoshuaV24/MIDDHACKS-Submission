@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<head>
+    <meta charset = "utf-8">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.88.1">
+    <title>Product example · Bootstrap v5.1</title>
+    <link rel = "stylesheet" href="display.css">
+    <script src = "script2.js"></script>
+</head>
+<body>
+    <div class = "word" id = "word"></div>
+    <center>
+    <div id="space" class="spaceKeyToStart"></div>
+    </center>
+</body>
+</html>
+<script type = "text/javascript">
+    document.getElementById("word").innerHTML = start(input, 300);
+
+    var state = false; 
+    if(state == false){
+        document.getElementById("space").innerHTML = "Press Space to pause"
+    } 
+    else{
+        document.getElementById("space").innerHTML = "Press Space to play"
+    }
+</script>

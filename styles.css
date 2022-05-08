@@ -1,0 +1,62 @@
+body{
+    margin:0;
+    padding: 0;
+    background: #ccc; 
+    font-family: Arial; 
+}
+.navbar ul{
+    list-style: none; 
+    background: #bd1e43;
+    padding: 0; 
+    margin: 0; 
+    text-align: right;
+}
+.navbar li{
+    display: inline-block; 
+}
+.navbar a{
+    text-decoration: one; 
+    color: #fff; 
+    width: 80px; 
+    display: block; 
+    padding: 25px 20px;
+    text-transform: uppercase; 
+    font-weight: bold;
+    font-family: arial;
+    text-align: center;
+    font-size: 14px;
+}
+.navbar a:hover{
+    background: #353640; 
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    color: black;
+}
+h2{
+    text-align: center; 
+    font-size: 30px; 
+    color: gray;
+}
+.textbox{
+    width: 40%; 
+    height: 100px;
+}
+.block{
+    text-align: center;
+}
+.inputtext{
+    font-size: 30px;
+    padding: 40px;
+}
+.uploadtext{
+    font-size: 30px;
+    padding: 40px;
+}
+
+.upfile{
+    width: 100px;
+    height: 50px;
+}

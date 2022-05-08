@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<head>
+    <meta charset = "utf-8">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.88.1">
+    <title>Product example · Bootstrap v5.1</title>
+    <link rel = "stylesheet" href="styles.css">
+    <script src="script2.js"></script>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./research.html" >Research</a></li>
+            <li><a href="./contacts.html" >Contact</a></li>
+        </ul>
+        </div>
+    </header>
+    <div class = "rest">
+        <h1>Readefined</h1>
+        <center>
+        <h2>Readefined is a reading experience enhancing toolthat allows</h2>
+        <h2>its readers to tap into their unconscious ability to speed read</h2>
+        </center>
+    </div>
+    <div class = "block">
+        <div class="lead">
+            <div class="textinput">
+              <div class="inputtext">Insert text here...</div>
+              <input type="text" class="textbox" id="userinput" placeholder="Give me a story, and I will read it to you...">
+          </div>
+          <div class="upload">
+              <div class="uploadtext">...Or upload a pdf file here...</div>
+              <form method = "post" enctype = 'multipart/form-data'>
+                <!--{% csrf_token %}-->
+                <input type = "file" name = "document" class="uploadbox">
+                <button class="upfile" type = "submit" onclick="saveText()"><a href="display.html">Upload file</a></button>
+              </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<script>
