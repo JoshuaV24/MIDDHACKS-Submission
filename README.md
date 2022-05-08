@@ -16,3 +16,10 @@ Readefined is a website that helps children with ADHD read faster immediately. O
   
  3)Prototype files:
    -Our algorithms were originally written in plain python. We did not have the time to fully implement them into javascript/django.
+   
+  4)Algorithms:
+  We built two main set of functions. One set of functions were used to convert a pdf file into a txt file so that it can be read by our second set of functions which takes a txt file, converts it into an array and spits out words at a controllable, but default speed of 400wpm.
+
+While, we did not complete building our web application, we request to be evaluated on the quality of our algorithm, the extent to which we were able to apply unfamiliar technologies, such as javascript and django, and the creativity of our approach. 
+
+Regardless, we all collectively agree that this experience has been incredibly educational. By working under such a time constraint to build a captivating project, we were able to expedite our learning within the past two days. We are all incredibly thankful for the experience, especially as first years participating at a hackathon for the first time. 
